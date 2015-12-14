@@ -123,6 +123,22 @@ Open graph is a way to give a website the ability to be linked.
 In other words, have a small amount of information easily available so that if your site is linked on another site or social network, that site can fetch this small amount of information an display it easily.
 For example, The website name, a small image and obviously the url.
 
-hm needs to be online to work?
+Well it was the point atleast. Been trying alot and googleling around but atleast facebook doesn't link correctly. And twitter doesn't even let me try thinking it's spam....
+
+Here is my code:
+<pre>
+<code>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#
+                  website: http://ogp.me/ns/website#">
+<head>
+    <title>The Rock (1996)</title>
+    <meta property="og:title" content="Mikael Melander - 1DV002" />
+    <meta property="og:url" content="http://melanderm.github.io" />
+    <meta property="og:image" content="http://melanderm.github.io/img/placeholder.png" />
+</head>
+</html>
+</code>
+</pre>
+
 <br>
 <br>
