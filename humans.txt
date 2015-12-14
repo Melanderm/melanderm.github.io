@@ -1,0 +1,12 @@
+/* Creator */
+Name: Mikael Melander
+Mail: mikael.melander@swift-it.se
+Github: melanderm
+From: Växjö, Sweden.
+
+/* WEBPAGE */
+Last update: 14/12 -15
+Code: HTML5, CSS3, with SCSS
+SSG: Jekyll
+IDE: Webstorm, Vagrant, Git, Disqus
+
