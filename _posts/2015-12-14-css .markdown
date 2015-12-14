@@ -49,6 +49,7 @@ Well I think i mentioned most of the main things earlier but lets just do it lik
   <h2>- Cons</h2>
    <ul>
       <li>Well I didn't really do any debugging on this, but hearing you talk about it on lectures and reading about it a bit it seams abit annoying.</li>
+      <li>I take the above one back. I had to do some debugging. And to be honest it was a pain, but I mostly think it was because i never done it before. What was even more a PAIN! was that it was a stupid error... Had one to many "}"</li>
    </ul>
 <br>
 Probably there is way more to write about this when we get to work on it more in the future but this is the main things i thought of right now.
@@ -128,7 +129,6 @@ Well it was the point atleast. Been trying alot and googleling around but atleas
 Here is my code:
 <pre>
 <code>
-/*
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#
                   website: http://ogp.me/ns/website#">
 <head>
@@ -138,7 +138,6 @@ Here is my code:
     <meta property="og:image" content="http://melanderm.github.io/img/placeholder.png" />
 </head>
 </html>
-*/
 </code>
 </pre>
 
