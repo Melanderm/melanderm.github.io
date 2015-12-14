@@ -1,0 +1,128 @@
+---
+layout: post
+title:  "Assignment 1 - Answers"
+date:   2015-12-14 16:10:50
+categories: jekyll update
+start: What do you think of....
+author: Mikael Melander
+comments: true
+---
+<h1>What do you think of pre-compiling your CSS?</h1>
+<hr>
+<br>
+I had never worked with it before, but i got to say that after just a couple of minutes working with it I saw the potential.
+Usually because I am so used to work alone on projects and I just always do it my own way.
+When i first heard about this a thought that it was mostly great when working on a project together with other people.
+But when doing this I pretty quickly realised that it was better even when working alone.
+
+<h2>Compare to regular CSS:</h2>
+Well you can get a more clear an easier to follow structure in your CCS.
+You can divide and create classes to keep your code easier to find and follow.
+I realise that I might not have done alot with the CCS code during this assignment, but I did look through and learned the structure of it and saw the potential.
+<br><br>
+Regular CCS when working on a big site can get pretty messy even when you really try to get a got flow through out the code. It still becomes this huge document that you easily become lost in.
+I've never worked together with other people on a CCS file/project and i really don't even want to think about it.
+<br>
+But this definitely would make it 100 times easier. You can create a structure that other people easily can follow at the same time you can work on different parts of it.
+
+<h2>Which techniques did you use?:</h2>
+I particularly like the part were you define your variables at the beginning of your main document.
+I've never really done this using CCS but a work alot like that when working on obj-C. Doing this makes it way easier to change the site later on aswell as building it in the first place.
+<br>
+Want to change the theme color of the site?
+<br>
+- Easy, just change the $main_color tag!
+<br>
+<br>
+I actually imported my first font aswell, I know it looks horrible but still i did it ! :)
+
+
+<h2>Pros and cons?:</h2>
+Well I think i mentioned most of the main things earlier but lets just do it like this.
+
+<h2>+ Pros</h2>
+ <ul>
+    <li>Well i have to say that the best thing about this that has me jumping up and down is VARIABLES! THANK YOU!</li>
+    <li>The second best thing is being able to structure your code in different files. This is a nice little future when working alone. But working in a team? Hallelujah!</li>
+  </ul>
+
+  <h2>- Cons</h2>
+   <ul>
+      <li>Well I didn't really do any debugging on this, but hearing you talk about it on lectures and reading about it a bit it seams abit annoying.</li>
+   </ul>
+<br>
+Probably there is way more to write about this when we get to work on it more in the future but this is the main things i thought of right now.
+<br>
+
+<h1>What do you think of static site generators?</h1>
+<hr>
+<br>
+This was aswell a new thing for me. Haven't really worked on anything that have to do with the browsers more than just some easy HTML, PHP and CSS.
+I was pleasantly suprised about how easy and quickly you could setup a site like this.
+<h2>What type of projects are they suitable for?</h2>
+For small businesses with low budgets that want to reach out to costumers this is gold.
+You don't need a database just a ftp and you can still get the information you want out there.
+And of course sites like this, a small blogg.
+<br>
+<br>
+Even if you need to know alittle bit about how you add content or a new page its still really easy. The hard programming is already done and takes care of the rest.
+<br>
+<h1>What is robots.txt and how have you configure it for your site?</h1>
+<hr>
+<br>
+The robots.text file lets "programs" like googles Googlebot that looks at the site and generates search terms and so on for google.
+It's important to know that this is no security for your site. Bad bots can just do what they want despite the file anyways.
+My file looks like this.<br>
+<pre>
+<code>
+User-agent: Google //This allows the google bot
+Disallow:          //If i wanted the bot not to look through a specfik folder or site i would write it here.
+
+User-agent: *   //This means all other bots.
+Disallow: /     //And this line disallows them to the root, meaning all code.
+</code>
+</pre>
+<br>
+<h1>What is humans.txt and how have you configure it for your site?</h1>
+<hr>
+<br>
+The humans.txt is pretty much straight forward.
+This is as it sounds like, for humans.
+If people want to know how built a particular site, look at the humans.txt
+It contains (often) how built the site, contact information (email or so).
+Also you can add some information about what code its built with and what IDE:s
+More or less just some interesting info but don't do anything.
+<pre>
+<code>
+/* Creator */
+Name: Mikael Melander
+Mail: mikael.melander@swift-it.se
+Github: melanderm
+From: Växjö, Sweden.
+
+/* WEBPAGE */
+Last update: 14/12 -15
+Code: HTML5, Javascript, CSS3, with SCSS
+SSG: Jekyll
+IDE: Webstorm, Vagrant, Git, Disqus
+</code>
+</pre>
+<br>
+<h1>How did you implements comments to blog posts</h1>
+<hr>
+Well this was just read and understand what was said at the disqus website.
+Register an account at Disqus and the linked pre generated code that was just copy paste more or less.
+
+hm not quite finished with this one.
+
+
+<br>
+<h1>What is Open Graph and how do you make use of it?</h1>
+<hr>
+Open graph is a way to give a website the ability to be linked.
+In other words, have a small amount of information easily available so that if your site is linked on another site or social network, that site can fetch this small amount of information an display it easily.
+For example, The website name, a small image and obviously the url.
+
+hm needs to be online to work?
+<br>
+<br>
