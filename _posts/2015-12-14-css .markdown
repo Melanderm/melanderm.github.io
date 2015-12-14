@@ -128,6 +128,7 @@ Well it was the point atleast. Been trying alot and googleling around but atleas
 Here is my code:
 <pre>
 <code>
+/*
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#
                   website: http://ogp.me/ns/website#">
 <head>
@@ -137,6 +138,7 @@ Here is my code:
     <meta property="og:image" content="http://melanderm.github.io/img/placeholder.png" />
 </head>
 </html>
+*/
 </code>
 </pre>
 
