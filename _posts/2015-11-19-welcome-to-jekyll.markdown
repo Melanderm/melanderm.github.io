@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: false
 title:  "First Post!"
 date:   2015-11-19 16:13:48
 categories: jekyll update
