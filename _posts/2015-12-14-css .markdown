@@ -143,5 +143,13 @@ head>
 </code>
 </pre>
 Appernetly hade to remove "<" at the start of ever line in the code for it to show, even though it was inside the code box.
+
+Open graph seams like a really good and useful tool. Maybe not fore sites like this, kind of more private?
+But sites that rely on social media to get around.
 <br>
 <br>
+<h1>Other thoughts...</h1>
+<hr>
+Well first of all. I want to apologize for this assignment being turned in so late.
+As i am on study leave from my work, I had to go in to work a couple of weeks on really short notice because of illness. This was nothing that was planned.
+And i truly apologize for any inconvenience this may cause.
