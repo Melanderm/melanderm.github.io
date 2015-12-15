@@ -16,8 +16,6 @@ layout: default
         <p class="post-meta">{% if page.author %}{{ page.author }}{% endif %} • {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </article>
 
-
-    {% if post.comments %}
     <div id="disqus_thread"></div>
     <script>
         (function() {  // DON'T EDIT BELOW THIS LINE
@@ -31,7 +29,6 @@ layout: default
     </script>
     <script id="dsq-count-scr" src="//mm222ev.disqus.com/count.js" async></script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-    {% endif %}
     </div>
 
 

@@ -115,7 +115,8 @@ IDE: Webstorm, Vagrant, Git, Disqus
 Well this was just read and understand what was said at the disqus website.
 Register an account at Disqus and the linked pre generated code that was just copy paste more or less.
 
-hm not quite finished with this one.
+Everything worked perfektly until i was going to start adding the per post comments. Meaning the ability to turn of comments for some posts.
+I just couldn't get it to work. I left it on for everypost instead.
 
 
 <br>
