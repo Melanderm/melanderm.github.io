@@ -157,3 +157,33 @@ And i truly apologize for any inconvenience this may cause.
 <br>
 <br>
 <br>
+<h1>Changes...</h1>
+<p>Well i had to change my meta tags for the links in open graph to work. Instead of having the code in the index file, I changed it to the head.html file that is loaded in ever page instead</p>
+<p>Here is the new code in head.html</p>
+<pre>
+<code>
+ <meta property="og:image" content="img/placeholder.png" />
+    <meta property="og:url" content="http://melanderm.github.io" />
+
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article" />
+    {% else %}
+    <meta property="og:title" content="Mikael Melander" />
+    <meta property="og:type" content="website" />
+    {% endif %}
+
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
+    <meta property="og:description" content="For the course 1DV022 - Linnéuniversitetet" />
+    {% endif %}
+/head>
+/html>
+</code>
+</pre>
+<br>
+<p>Now the code is chaning with page changes aswell by using {% if page.title %} and so on.</p>
+<br>
+<br>
+<br>
