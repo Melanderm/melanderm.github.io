@@ -183,7 +183,9 @@ And i truly apologize for any inconvenience this may cause.
 </code>
 </pre>
 <br>
-<p>Now the code is chaning with page changes aswell by using <code>{% if page.title %}</code> and so on.</p>
+<p>Now the code is chaning with page changes aswell by using</p>
+<pre><code>{% if page.title %}</code></pre>
+<p>and so on.</p>
 <br>
 <br>
 <br>
